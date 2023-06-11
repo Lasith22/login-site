@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 const SignIn = () => {
   return (
     <div className="h-screen flex bg-gray-bg1 mx-3">
-      <div className="w-full max-w-md m-auto   bg-gray-100 rounded-lg border border-primaryBorder shadow-default py-10 px-16">
+      <div className="w-full max-w-md m-auto   bg-gray-200 rounded-lg border border-primaryBorder shadow-default py-10 px-16">
         <form>
           <div className=" flex sm:flex-row  flex-col  justify-between   sm:gap-7 gap-0 ">
             <label className=" text-lg mb-2 ">User&nbsp;Name</label>
